@@ -14,7 +14,7 @@ python3 scripts/build.py
 未设置 `UPSTREAM_TAG` 时，脚本使用上游最新正式 Release 的 tag。如需构建指定版本，设置 `UPSTREAM_TAG`：
 
 ```sh
-UPSTREAM_TAG=v0.2.19 python3 scripts/build.py
+UPSTREAM_TAG=v0.2.20 python3 scripts/build.py
 ```
 
 该命令自动下载上游源码、应用补丁、运行测试，并生成：
